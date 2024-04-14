@@ -1,0 +1,42 @@
+<!--Olivia Anderson-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding the Palindrome.</title>
+    <!-- Stylesheet for styling and customizing-->
+    <link rel="stylesheet" href="stylestrings.css" />
+
+  </head>
+
+  <body>
+<!--The main div where it shows tittle, along with button that connects to the JS.-->
+    <div class="container">
+      <h2 class="app-title">Finding the Palindrome.</h2>
+      <div class="input-wrapper">
+        <!---This is where it goes into an area so before you click adn type. It shows you what you can do.-->
+        <input type="text" id="input-text" placeholder="Enter a word" />
+        <button id="btn">IS IT?</button>
+      </div>
+      <p id="result"></p>
+    </div>
+    <!---The script for java script coding, adding functions-->
+    <script src="strings.js"></script>
+
+    <form id="inputForm">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required><br><br>
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required><br><br>
+
+      <label for="zipCode"> Zip Code:</label>
+      <input type="text" id="zipCode" name="zipCode" pattern="[0-9]{5}" title="Zip code must be 5 digits!" required><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+
+  </body>
+</html>
